@@ -1,0 +1,33 @@
+.firstBlockWrapper {
+  height: calc(100vh - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ea9393;
+}
+
+.firstBlockWrapper p {
+	margin: 10px auto auto 10px;
+}
+.firstBlockWrapper_element {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 75%;
+  border: 1px solid #000;
+  margin-bottom:  10%;
+  word-break: break-all;
+  font-size: 12px;
+}
+
+.firstBlockWrapper_element_item, 
+.firstBlockWrapper_element_item2 {
+  width: 30%;
+  background-color: #ccc;
+}
+
+.firstBlockWrapper_element_item2 {
+  height: 100%;
+}

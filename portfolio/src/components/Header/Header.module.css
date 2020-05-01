@@ -1,0 +1,21 @@
+.App_header {
+  height: 30px;
+  background-color: #00aaa1;
+  /*min-height: 100vh;      */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App_header .nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.nav {
+  display: flex;
+}

@@ -1,0 +1,45 @@
+.fifthWrapper {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2cbab;
+
+}
+.fifthWrapper_form {
+  margin-bottom: 20px;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2cbab;
+  border: 1px solid #000;
+}
+
+.fifthWrapper_form span {
+  background-color: #ccc;
+}
+
+.fifthWrapper_form__item {
+  padding: 5px;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #ccc;
+}
+.fifthWrapper_form input,
+.fifthWrapper_form  textarea {
+  width: 100%;
+}
+
+.fifthWrapper_form input:last-child {
+  background-color: gray;
+  cursor: pointer;
+}
